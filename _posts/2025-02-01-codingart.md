@@ -47,6 +47,7 @@ function design(){
         }
         endShape(CLOSE);
     }   
+    pop();
 }
 ```
 OUTPUT 
