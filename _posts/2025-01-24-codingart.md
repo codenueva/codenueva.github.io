@@ -4,7 +4,7 @@ title: Art Made With Code 2
 date: 2025-01-24 10:42
 category: artwithcode
 author: codenueva
-tags: [p5js,art,code]
+tags: [p5js,art,code,rectangles]
 summary: 
 ---
 

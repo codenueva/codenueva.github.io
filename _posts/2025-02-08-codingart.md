@@ -4,7 +4,7 @@ title: Art Made With Code 6
 date: 2025-02-08 07:09
 category: artwithcode
 author: codenueva
-tags: [p5js,art,cod]
+tags: [p5js,art,code,polygons]
 summary: 
 ---
 
