@@ -78,7 +78,7 @@ OUTPUT
 
  <img src = "/assets/images/0009f.png" alt="Grid 1" width="500" height="500"> 
 
-  <img src = "/assets/images/0009g.png" alt="Grid 1" width="500" height="500"> 
+ <img src = "/assets/images/0009g.png" alt="Grid 1" width="500" height="500"> 
 
  <img src = "/assets/images/0009h.png" alt="Grid 1" width="500" height="500"> 
 
