@@ -286,3 +286,35 @@ img.displayed {
     grid-template-columns: 1fr;
   }
 }
+
+/* Additional Responsive Adjustments for Mobile */
+@media (max-width: 600px) {
+  body {
+    width: 90%;
+    font-size: 1.1em;
+    margin: 20px auto;
+  }
+
+  nav ul, footer ul {
+    font-size: 1.1em;
+  }
+
+  nav ul li, footer ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  p, .book-card p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+
+  .book-card h3 {
+    font-size: 1.3rem;
+  }
+}
