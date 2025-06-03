@@ -267,6 +267,7 @@ img.displayed {
     display: none;
 }
 
+
 @media (max-width: 768px) {
     body {
         width: 90%;
@@ -312,5 +313,86 @@ img.displayed {
 
     h2 {
         font-size: 1.2rem;
-    }
+    }   
+}
+
+/* Default table styles (desktop) */
+.music-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.music-table th, 
+.music-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.music-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .music-table {
+    border: 0;
+  }
+  
+  .music-table thead {
+    display: none;
+  }
+  
+  .music-table tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+  .music-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+    text-align: right;
+  }
+  
+  .music-table td:last-child {
+    border-bottom: 0;
+  }
+  
+  .music-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 1rem;
+  }
+  
+  /* Optional: Add some visual separation */
+  .music-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 768px) {
+  .music-table thead {
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .music-table thead tr {
+    display: none; /* Hide the default header row */
+  }
+  
+  .music-table thead::before {
+    content: "Music Library";
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
 }
