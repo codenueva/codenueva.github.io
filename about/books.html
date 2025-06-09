@@ -13,6 +13,22 @@
         });
         </script>
         <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        <script>
+                // Show/hide button based on scroll
+                window.onscroll = function () {
+                const btn = document.getElementById("backToTopBtn");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    btn.style.display = "block";
+                } else {
+                    btn.style.display = "none";
+                }
+                };
+
+                // Smooth scroll to top
+                function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 		
@@ -32,7 +48,7 @@
 		</nav>
        
      <br><br>
-       
+       <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">⬆️</button>
       🚧 UNDER CONSTRUCTION 
         <div class="book-grid">
             <div class="book-card">
@@ -63,9 +79,11 @@
                 <p>Genre: </p>
                 <p>Year: </p>
             </div>
+            
+        
         </div>
         
-
+        
 		<footer>
             <ul>
                 <li><a href="mailto:lakshmi.akkaram.0610@gmail.com">email</a></li>

@@ -13,7 +13,23 @@
             });
             </script>
 			<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script>
+                // Show/hide button based on scroll
+                window.onscroll = function () {
+                const btn = document.getElementById("backToTopBtn");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    btn.style.display = "block";
+                } else {
+                    btn.style.display = "none";
+                }
+                };
+
+                // Smooth scroll to top
+                function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            </script>
         </head>
 		
         <body>
@@ -1266,14 +1282,7 @@
                                 <td data-label="Link"><a href="https://www.youtube.com/watch?v=eFjjO_lhf9c" target="_blank">Listen</a></td>
                             </tr>
 
-                            <tr>
-                                <td data-label="Title">Summer Of 69</td>
-                                <td data-label="Album">Reckless</td>  
-                                <td data-label="Composer">Bryan Adams</td>
-                                <td data-label="Genre">Rock</td>
-                                <td data-label="Year">1985 </td>
-                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=eFjjO_lhf9c" target="_blank">Listen</a></td>
-                            </tr>
+        
 
                             <tr>
                                 <td data-label="Title">(Everything I Do) I Do It for You</td>
@@ -1827,7 +1836,7 @@
                                 <td data-label="Link"><a href="https://www.youtube.com/watch?v=5igDtWadYms" target="_blank">Listen</a></td>
                             </tr>
 
-                             <tr>
+                            <tr>
                                 <td data-label="Title">Take It to the Limit</td>
                                 <td data-label="Album">Single</td>  
                                 <td data-label="Composer">Eagles</td>
@@ -1835,6 +1844,131 @@
                                 <td data-label="Year">1975</td>
                                 <td data-label="Link"><a href="https://www.youtube.com/watch?v=SloVvZdNuXA" target="_blank">Listen</a></td>
                             </tr>
+
+                            <tr>
+                                <td data-label="Title">Everybody Hurts </td>
+                                <td data-label="Album">Automatic For The People</td>  
+                                <td data-label="Composer">R.E.M</td>
+                                <td data-label="Genre">Rock</td>
+                                <td data-label="Year">1992</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=5rOiW_xY-kc" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">Losing My Religion</td>
+                                <td data-label="Album">Out of Time</td>  
+                                <td data-label="Composer">R.E.M</td>
+                                <td data-label="Genre">Rock</td>
+                                <td data-label="Year">1991</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=japBNRP47-8" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">Tears in Heaven</td>
+                                <td data-label="Album">Rush ST</td>  
+                                <td data-label="Composer">Eric Clapton</td>
+                                <td data-label="Genre">Blues Rock</td>
+                                <td data-label="Year">1992</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=VVqXLXMch9g" target="_blank">Listen</a></td>
+                            </tr>
+
+                             <tr>
+                                <td data-label="Title">Wonderful Tonight</td>
+                                <td data-label="Album">Slowhand</td>  
+                                <td data-label="Composer">Eric Clapton</td>
+                                <td data-label="Genre">Soft Rock</td>
+                                <td data-label="Year">1977</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=b78RfUCw_fU" target="_blank">Listen</a></td>
+                            </tr>
+
+                             <tr>
+                                <td data-label="Title">Change the World</td>
+                                <td data-label="Album">Phenomenon ST</td>  
+                                <td data-label="Composer">Eric Clapton</td>
+                                <td data-label="Genre">Soft Rock</td>
+                                <td data-label="Year">1999</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=boFCPq2M36U" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">Layla</td>
+                                <td data-label="Album">Layla and Other Assorted Love Songs</td>  
+                                <td data-label="Composer">Eric Clapton</td>
+                                <td data-label="Genre">Blues Rock</td>
+                                <td data-label="Year">1970</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=EOs0qeiJyIg" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">Alberta</td>
+                                <td data-label="Album">Unplugged</td>  
+                                <td data-label="Composer">Eric Clapton</td>
+                                <td data-label="Genre">Blues</td>
+                                <td data-label="Year">1992</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=6mR86Ul_g3Y" target="_blank">Listen</a></td>
+                            </tr>
+
+                             <tr>
+                                <td data-label="Title">Running on Faith</td>
+                                <td data-label="Album">Journeyman</td>  
+                                <td data-label="Composer">Eric Clapton</td>
+                                <td data-label="Genre">Blues Rock</td>
+                                <td data-label="Year">1989</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=6WzWzCDqWgs" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">Another Day In Paradise</td>
+                                <td data-label="Album">Journeyman</td>  
+                                <td data-label="Composer">Phil Collins</td>
+                                <td data-label="Genre">Soft Rock</td>
+                                <td data-label="Year">1989</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=Qt2mbGP6vFI" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">"In the Air Tonight</td>
+                                <td data-label="Album">Face Value</td>  
+                                <td data-label="Composer">Phil Collins</td>
+                                <td data-label="Genre">Rock</td>
+                                <td data-label="Year">1981</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=Qt2mbGP6vFI" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">"Against All Odds</td>
+                                <td data-label="Album">Against All Odds</td>  
+                                <td data-label="Composer">Phil Collins</td>
+                                <td data-label="Genre">Rock</td>
+                                <td data-label="Year">1984</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=CkGg1bzfSys" target="_blank">Listen</a></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Title">Paint My Love</td>
+                                <td data-label="Album">Nothing to Lose</td>  
+                                <td data-label="Composer">Michael Learns to Rocks</td>
+                                <td data-label="Genre">Soft Rock</td>
+                                <td data-label="Year">1997</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=oNSpgFRWu0o" target="_blank">Listen</a></td>
+                            </tr>
+
+                             <tr>
+                                <td data-label="Title">That's Why</td>
+                                <td data-label="Album"> Played on Pepper</td>  
+                                <td data-label="Composer">Michael Learns to Rocks</td>
+                                <td data-label="Genre">Soft Rock</td>
+                                <td data-label="Year">1995</td>
+                                <td data-label="Link"><a href="https://www.youtube.com/watch?v=abVYMO_z8qc" target="_blank">Listen</a></td>
+                            </tr>
+
+
+
+
+
+
+
+
                             
 
 
@@ -1877,6 +2011,7 @@
                         </tbody>
                         
                     </table>
+                     <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">⬆️</button>
                     <br><br>
                 </div>
 

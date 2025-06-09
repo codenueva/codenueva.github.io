@@ -13,7 +13,23 @@
         });
       </script>
 			<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <script>
+                // Show/hide button based on scroll
+                window.onscroll = function () {
+                const btn = document.getElementById("backToTopBtn");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    btn.style.display = "block";
+                } else {
+                    btn.style.display = "none";
+                }
+                };
+
+                // Smooth scroll to top
+                function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+      </script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 		
     <body>
@@ -47,7 +63,7 @@
 
         </article>
 
-
+       <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">⬆️</button>
       </div><!-- /.container -->
 
 		<footer>
